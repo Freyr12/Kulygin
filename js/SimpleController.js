@@ -3,7 +3,8 @@ angular.module("kulygin").controller("SimpleController", [
   '$location',
   '$rootScope',
   '$routeParams',
-function($scope, $location, $rootScope, $routeParams) {
+  '$http',
+function($scope, $location, $rootScope, $routeParams, $http) {
   $scope.customers = [
     { name: 'John Smith', city: 'Phoenix' },
     { name: 'John Doe', city: 'Los Angeles' },

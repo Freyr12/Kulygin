@@ -4,5 +4,5 @@ angular.module("kulygin").controller("AboutController", [
   '$rootScope',
   '$routeParams',
 function($scope, $location, $rootScope, $routeParams) {
-  $scope.Freyr = "Frooze";
+  $scope.Fridfinnur = "Friðfinnur Hermannsson";
 }]);

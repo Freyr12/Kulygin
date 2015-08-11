@@ -4,7 +4,6 @@ angular.module("kulygin").controller("ContactController", [
   '$rootScope',
   '$routeParams',
 function($scope, $location, $rootScope, $routeParams) {
-  $scope.phone = "581 2345";
-  $scope.email = "kulygin@kulygin.is";
-  $scope.fax = "N/A";
+  $scope.phone = "860 1045";
+  $scope.email = "fridfinnur@kulygin.is";
 }]);
