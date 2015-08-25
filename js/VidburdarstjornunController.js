@@ -1,4 +1,4 @@
-angular.module("kulygin").controller("ServicesController", [
+angular.module("kulygin").controller("VidburdarstjornunController", [
   '$scope',
   '$location',
   '$rootScope',
